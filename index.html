@@ -17,6 +17,18 @@
 
 
   <style>
+    #root {
+      background: #ffff;
+      background-size: cover;
+      color: black;
+    }
+
+    #root_more {
+      background: #ffff;
+      background-size: cover;
+      color: black;
+    }
+
     #root>div.container>div:nth-child(1)>div.inline-flex.h-10.items-center.justify-center.rounded-md.bg-muted.p-1.text-muted-foreground {
       border: 2px solid black;
       display: flex;
@@ -35,7 +47,9 @@
       justify-content: flex-start;
     }
 
-
+    #radix-\:r0\:-content-zoo > div{
+      border:  1px solid black;
+    }
 
     #root>div.flex.justify-between.items-center.py-2.px-4.border-b {
       /* z-index: 1000; */
@@ -301,7 +315,7 @@
     style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%); height: 100%; width:100%; overflow: hidden;">
   </div>
   <div id="root_more"
-    style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%); height: 100%; width:100%; overflow: hidden; background: gray;display: none;">
+    style="position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%); height: 100%; width:100%; overflow: hidden;display: none;">
   </div>
   <script src="assets/news.js"></script>
 </body>
