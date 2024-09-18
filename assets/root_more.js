@@ -9121,14 +9121,15 @@ function sy() {
         children: [v.jsxs("div", {
             className: "flex items-center gap-2",
             children: [v.jsx("a", {
-                href: "https://t.me/hamster_kombat_Bot/start?startapp=kentId541625404",
+                href: "https://t.me/Lalsinghchaudhary",
                 target: "_blank",
                 rel: "noopener noreferrer",
-                children: v.jsx("div", {
-                    className: "tg-logo play"
+                children: v.jsx("img", {
+                    src: 'img/logo.jpg',
+                    className: 'tg-logo play'
                 })
             }), v.jsxs("p", {
-                children: ["version: ", "1.8.0"]
+                children: ["version: ", "2.0"]
             })]
         }), v.jsxs("div", {
             className: "flex items-center gap-2",
@@ -12281,8 +12282,8 @@ function bouncemasters() {
 }
 
 const ball1 = "4bf4966c-4d22-439b-8ff2-dc5ebca1a600",
-   ball2 = "4bf4966c-4d22-439b-8ff2-dc5ebca1a600",
-   ball3 = new ro(ball1, ball2);
+    ball2 = "4bf4966c-4d22-439b-8ff2-dc5ebca1a600",
+    ball3 = new ro(ball1, ball2);
 
 function ball() {
     const game_id = 'ball';
@@ -12430,8 +12431,8 @@ function ball() {
 }
 
 const pin1 = "d2378baf-d617-417a-9d99-d685824335f0",
-   pin2 = "d2378baf-d617-417a-9d99-d685824335f0",
-   pin3 = new ro(pin1, pin2);
+    pin2 = "d2378baf-d617-417a-9d99-d685824335f0",
+    pin3 = new ro(pin1, pin2);
 
 function pin() {
     const game_id = 'pin';
