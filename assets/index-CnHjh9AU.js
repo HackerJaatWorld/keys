@@ -9121,11 +9121,12 @@ function sy() {
       children: [v.jsxs("div", {
          className: "flex items-center gap-2",
          children: [v.jsx("a", {
-            href: "https://t.me/hamster_kombat_Bot/start?startapp=kentId541625404",
+            href: "https://t.me/Lalsinghchaudhary",
             target: "_blank",
             rel: "noopener noreferrer",
             children: v.jsx("img", {
-               src: 'img/'
+               src: 'img/logo.jpg',
+               className: 'tg-logo play'
             })
          }), v.jsxs("p", {
             children: ["version: ", "1.8.0"]
