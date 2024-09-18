@@ -9129,7 +9129,7 @@ function sy() {
                className: 'tg-logo play'
             })
          }), v.jsxs("p", {
-            children: ["version: ", "1.8.0"]
+            children: ["version: ", "2.0"]
          })]
       }), v.jsxs("div", {
          className: "flex items-center gap-2",
