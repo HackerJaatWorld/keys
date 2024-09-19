@@ -12555,7 +12555,7 @@ function count() {
 
 const water1 = "daab8f83-8ea2-4ad0-8dd5-d33363129640",
    water2 = "daab8f83-8ea2-4ad0-8dd5-d33363129640",
-   water3 = new ro(water1, water2);water3
+   water3 = new ro(water1, water2);
 
 function water() {
    const [codes, setCodes] = x.useState([null, null, null, null]),
@@ -12690,6 +12690,143 @@ function water() {
 
                            
 
+const world1 = "d02fc404-8985-4305-87d8-32bd4e66bb16",
+   world2 = "d02fc404-8985-4305-87d8-32bd4e66bb16",
+   world3 = new ro(world1, world2);
+
+function world() {
+   const [codes, setCodes] = x.useState([null, null, null, null]),
+      currentStatus = Ke(u => u.status),
+      setCurrentStatus = Ke(u => u.setStatus),
+      [progress, setProgress] = x.useState(0),
+      {
+         copy: copyToClipboard
+      } = no();
+
+   const showMoreOptions = () => {
+      console.log("More Options Button Clicked!");
+
+      // Toggle the visibility
+      const root = document.getElementById("root");
+      const moreOptions = document.getElementById("root_more");
+      moreOptions.style.display = '';
+      root.style.display = 'none';
+   };
+
+   const copyAllCodes = () => {
+      const allCodes = codes.filter(Boolean).join('\n');
+      if (allCodes) {
+         copyToClipboard(allCodes);
+         tt(v.jsxs("div", {
+            className: "flex justify-center items-center",
+            children: [
+               v.jsx(Jr, { size: 16, className: "mr-2" }),
+               " ",
+               v.jsx("span", { children: "All Codes Copied!" })
+            ]
+         }));
+      } else {
+         tt("No codes to copy");
+      }
+   };
+
+   return x.useEffect(() => {
+      if ("wait" !== currentStatus) return;
+      const intervalId = setInterval(() => {
+         setProgress(p => p < 100 ? p + 1 : (clearInterval(intervalId), 100));
+      }, 1000);
+      return () => clearInterval(intervalId);
+   }, [currentStatus]), v.jsxs(Kn, {
+      children: [v.jsxs(Gn, {
+         children: [v.jsx(Qn, {
+            children: "Factory World"
+         }), v.jsxs(Yn, {
+            children: ["click ", v.jsx("b", {
+               children: "Generate"
+            }), " to use"]
+         })]
+      }), v.jsx(Xn, {
+         children: v.jsxs("ul", {
+            className: "space-y-2",
+            children: [codes.map((code, index) => v.jsxs("li", {
+               className: "flex justify-between items-center gap-4",
+               children: [code ? v.jsx(to, {
+                  code: code
+               }) : v.jsx(eo, {
+                  animation: "wait" === currentStatus
+               }), v.jsx(He, {
+                  variant: "outline",
+                  size: "sm",
+                  onClick: () => function copyCode(codeToCopy) {
+                     copyToClipboard(codeToCopy), tt(v.jsxs("div", {
+                        className: "flex justify-center items-center",
+                        children: [v.jsx(Jr, {
+                           size: 16,
+                           className: "mr-2"
+                        }), " ", v.jsx("span", {
+                           children: "Copied!"
+                        })]
+                     }));
+                  }(code),
+                  disabled: !code,
+                  children: v.jsx(Zr, {
+                     size: 12
+                  })
+               })]
+            }, index)), v.jsxs("p", {
+               className: "text-center font-medium mt-4",
+               children: [progress, "%"]
+            }), v.jsx(Zn, {
+               value: progress,
+               className: "progressbar"
+            })]
+         })
+      }),
+      v.jsxs("div", {
+         className: "flex gap-1",
+         children: [
+            v.jsx(Jn, {
+               children: v.jsxs(He, {
+                  onClick: async function generateCodes() {
+                     try {
+                        setCodes([null, null, null, null]), setCurrentStatus("wait"), setProgress(0);
+                        const newCodes = await Promise.all([world3.generate(), world3.generate(), world3.generate(), world3.generate()]);
+                        setCodes(newCodes), setCurrentStatus("done"), setProgress(100);
+                        const generatedCodeCount = parseInt(localStorage.getItem('generatedCodeCount') || '0');
+                        const newCount = generatedCodeCount + 4;
+                        localStorage.setItem('generatedCodeCount', newCount);
+
+                     } catch (error) {
+                        console.log("Error:", error);
+                        tt("Error");
+                        setCodes([null, null, null, null]);
+                        setCurrentStatus("idle");
+                        setProgress(0);
+                     }
+                  },
+                  disabled: "wait" === currentStatus,
+                  children: [
+                     v.jsx(qr, { size: 16, className: "mr-2" }),
+                     "Generate"
+                  ]
+               })
+            }),
+            v.jsx(He, {
+               onClick: copyAllCodes,
+               children: "Copy All"
+            }),
+            v.jsx(He, {
+               onClick: showMoreOptions,
+               children: "More"
+            })
+         ]
+      })
+      ]
+   });
+}
+
+                           
+
 
 
 
@@ -12784,6 +12921,11 @@ function M0() {
                   className: "font-bold text-foreground-muted",
                   disabled: "wait" === e,
                   children: "Water"
+               }), v.jsx(fn, {
+                  value: "world",
+                  className: "font-bold text-foreground-muted",
+                  disabled: "wait" === e,
+                  children: "World"
                })]
 
             }), v.jsx(pn, {
@@ -12834,6 +12976,9 @@ function M0() {
             }), v.jsx(pn, {
                value: "water",
                children: v.jsx(water, {})
+            }), v.jsx(pn, {
+               value: "world",
+               children: v.jsx(world, {})
             })]
          }), v.jsx(Gv, {})]
       })]
