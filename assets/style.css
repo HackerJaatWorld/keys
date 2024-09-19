@@ -19,6 +19,7 @@
     height: 10%;
     justify-content: flex-start;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #root>div.flex.justify-between.items-center.py-2.px-4.border-b {
@@ -32,6 +33,7 @@
 #radix-\:r0\:-content-zoo>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #radix-\:r0\:-content-cube>div,
@@ -39,12 +41,14 @@
 #radix-\:r0\:-content-cube>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 #radix-\:r0\:-content-train>div,
 #radix-\:r0\:-content-train>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-train>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #radix-\:r0\:-content-merge>div,
@@ -52,6 +56,7 @@
 #radix-\:r0\:-content-merge>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #radix-\:r0\:-content-twerk>div,
@@ -59,6 +64,7 @@
 #radix-\:r0\:-content-twerk>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #radix-\:r0\:-content-poly>div,
@@ -66,6 +72,7 @@
 #radix-\:r0\:-content-poly>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #radix-\:r0\:-content-trim>div,
@@ -73,6 +80,7 @@
 #radix-\:r0\:-content-trim>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #radix-\:r0\:-content-fluff>div,
@@ -80,6 +88,7 @@
 #radix-\:r0\:-content-fluff>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #radix-\:r0\:-content-tile>div,
@@ -87,6 +96,7 @@
 #radix-\:r0\:-content-tile>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #radix-\:r0\:-content-stone>div,
@@ -94,6 +104,7 @@
 #radix-\:r0\:-content-stone>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #radix-\:r0\:-content-bouncemasters>div,
@@ -101,6 +112,7 @@
 #radix-\:r0\:-content-bouncemasters>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #radix-\:r0\:-content-ball>div,
@@ -108,30 +120,35 @@
 #radix-\:r0\:-content-ball>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 #radix-\:r0\:-content-pin>div,
 #radix-\:r0\:-content-pin>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-pin>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 #radix-\:r0\:-content-frontier>div,
 #radix-\:r0\:-content-frontier>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-frontier>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 #radix-\:r0\:-content-count>div,
 #radix-\:r0\:-content-count>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-count>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 #radix-\:r0\:-content-water>div,
 #radix-\:r0\:-content-water>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-water>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid black;
     background: #ffff;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 ul {
