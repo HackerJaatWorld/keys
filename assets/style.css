@@ -1,161 +1,163 @@
 #root {
-    background: #ffff;
-    background-size: cover;
-    color: black;
+    background: rgb(41, 38, 38);
 }
 
 #root_more {
-    background: #ffff;
-    background-size: cover;
-    color: black;
+    background: rgb(41, 38, 38);
 }
 
 #root>div.container>div>div.inline-flex.h-10.items-center.justify-center.rounded-md.bg-muted.p-1.text-muted-foreground,
 #root_more>div.container>div>div.inline-flex.h-10.items-center.justify-center.rounded-md.bg-muted.p-1.text-muted-foreground {
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     max-width: 90%;
     height: 10%;
     justify-content: flex-start;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    background: rgb(41, 38, 38);
+    border: 1px solid rgba(216, 197, 197, 0.719);
 }
 
-#root>div.flex.justify-between.items-center.py-2.px-4.border-b {
+#root>div.flex.justify-between.items-center.py-2.px-4.border-b,
+#root_more>div.flex.justify-between.items-center.py-2.px-4.border-b {
     /* z-index: 1000; */
-    color: black;
-    background: #ffff;
+    color: rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
 }
 
 #radix-\:r0\:-content-zoo>div,
 #radix-\:r0\:-content-zoo>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-zoo>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
 
 #radix-\:r0\:-content-cube>div,
 #radix-\:r0\:-content-cube>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-cube>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
+
 #radix-\:r0\:-content-train>div,
 #radix-\:r0\:-content-train>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-train>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
 
 #radix-\:r0\:-content-merge>div,
 #radix-\:r0\:-content-merge>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-merge>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
 
 #radix-\:r0\:-content-twerk>div,
 #radix-\:r0\:-content-twerk>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-twerk>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
 
 #radix-\:r0\:-content-poly>div,
 #radix-\:r0\:-content-poly>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-poly>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
 
 #radix-\:r0\:-content-trim>div,
 #radix-\:r0\:-content-trim>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-trim>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
 
 #radix-\:r0\:-content-fluff>div,
 #radix-\:r0\:-content-fluff>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-fluff>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
 
 #radix-\:r0\:-content-tile>div,
 #radix-\:r0\:-content-tile>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-tile>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
 
 #radix-\:r0\:-content-stone>div,
 #radix-\:r0\:-content-stone>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-stone>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
 
 #radix-\:r0\:-content-bouncemasters>div,
 #radix-\:r0\:-content-bouncemasters>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-bouncemasters>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
 
 #radix-\:r0\:-content-ball>div,
 #radix-\:r0\:-content-ball>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-ball>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
+
 #radix-\:r0\:-content-pin>div,
 #radix-\:r0\:-content-pin>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-pin>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
+
 #radix-\:r0\:-content-frontier>div,
 #radix-\:r0\:-content-frontier>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-frontier>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
+
 #radix-\:r0\:-content-count>div,
 #radix-\:r0\:-content-count>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-count>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
+
 #radix-\:r0\:-content-water>div,
 #radix-\:r0\:-content-water>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-water>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
+
 #radix-\:r0\:-content-world>div,
 #radix-\:r0\:-content-world>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-world>div>div.p-6.pt-0>ul>li>button {
-    border: 1px solid black;
-    background: #ffff;
-    color: rgba(0, 0, 0, 0.719);
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
 }
 
 ul {
@@ -168,8 +170,10 @@ ul {
     padding: 10px;
     border-radius: 10px;
     margin: 0;
-    color: black;
+    color: #ffff;
     border: 1px solid black;
+    background: rgb(41, 38, 38);
+    border: 1px solid rgba(216, 197, 197, 0.719);
 }
 
 #navbar-iframe-container {
@@ -284,11 +288,11 @@ canvas {
     position: absolute;
     z-index: 1000;
     display: none;
-  }
+}
 
-  .ad-text {
+.ad-text {
     font-size: 12px;
-  }
+}
 
 /* ///////////////////// */
 
@@ -315,8 +319,8 @@ canvas {
     height: 90vh;
     max-height: 90vh;
     overflow: auto;
-    background-color: #ffff;
-    box-shadow: 0px 0px 10px 1px black;
+    background: rgb(41, 38, 38);
+    box-shadow: 0px 0px 10px 1px rgb(105, 86, 86);
     border-radius: 20px;
     z-index: 100;
     display: flex;
@@ -342,13 +346,25 @@ canvas {
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color: #453a3a;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 10px;
     margin: 10px;
+    animation-name: newsItem;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes newsItem{
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(100px);
+    }
 }
 
 .news-item img {
@@ -356,6 +372,7 @@ canvas {
     height: 100px;
     object-fit: cover;
     border-radius: 5px;
+    filter: drop-shadow(0px 0px 2px #ffff);
 }
 
 .news-item h3 {
@@ -363,11 +380,13 @@ canvas {
     flex: 1;
     padding-left: 20px;
     font-size: 1.2em;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .news-item p {
     margin: 5px 0;
-    color: #666;
+    color: #d4bfbf;
 }
 
 .close-btn {
@@ -400,10 +419,7 @@ canvas {
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
-    border: 1px dashed black;
+    border: 2px dashed  rgba(216, 197, 197, 0.719);
     color: black;
-}
-
-.news-item h3{
-    color: black;
+    background: rgb(41, 38, 38);
 }
