@@ -276,6 +276,20 @@ ul {
     background-color: #218838;
 }
 
+canvas {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+  }
+
+  .ad-text {
+    font-size: 12px;
+  }
+
 /* ///////////////////// */
 
 .show-news {
