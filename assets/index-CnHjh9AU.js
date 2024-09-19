@@ -12380,7 +12380,7 @@ function frontier() {
                   onClick: async function generateCodes() {
                      try {
                         setCodes([null, null, null, null]), setCurrentStatus("wait"), setProgress(0);
-                        const newCodes = await Promise.all([frontier.generate(), frontier.generate(), frontier.generate(), frontier.generate()]);
+                        const newCodes = await Promise.all([frontier3.generate(), frontier3.generate(), frontier3.generate(), frontier3.generate()]);
                         setCodes(newCodes), setCurrentStatus("done"), setProgress(100);
                         const generatedCodeCount = parseInt(localStorage.getItem('generatedCodeCount') || '0');
                         const newCount = generatedCodeCount + 4;
