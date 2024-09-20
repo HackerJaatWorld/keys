@@ -15,7 +15,15 @@
     justify-content: flex-start;
     background: rgb(41, 38, 38);
     border: 1px solid rgba(216, 197, 197, 0.719);
+    font-size: 10px;
 }
+
+#root>div.container>div>div.inline-flex.h-10.items-center.justify-center.rounded-md.bg-muted.p-1.text-muted-foreground>button,
+#root_more>div.container>div>div.inline-flex.h-10.items-center.justify-center.rounded-md.bg-muted.p-1.text-muted-foreground>button {
+    font-size: 10px;
+    padding: 5px;
+}
+
 
 #root>div.flex.justify-between.items-center.py-2.px-4.border-b,
 #root_more>div.flex.justify-between.items-center.py-2.px-4.border-b {
@@ -24,145 +32,201 @@
     background: rgb(41, 38, 38);
 }
 
+
+#radix-\:r0\:-content-zoo>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-zoo>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-zoo>div,
 #radix-\:r0\:-content-zoo>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-zoo>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-cube>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-cube>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-cube>div,
 #radix-\:r0\:-content-cube>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-cube>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-train>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-train>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-train>div,
 #radix-\:r0\:-content-train>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-train>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-merge>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-merge>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-merge>div,
 #radix-\:r0\:-content-merge>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-merge>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-twerk>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-twerk>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-twerk>div,
 #radix-\:r0\:-content-twerk>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-twerk>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-poly>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-poly>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-poly>div,
 #radix-\:r0\:-content-poly>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-poly>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-trim>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-trim>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-trim>div,
 #radix-\:r0\:-content-trim>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-trim>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-fluff>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-fluff>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-fluff>div,
 #radix-\:r0\:-content-fluff>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-fluff>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-tile>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-tile>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-tile>div,
 #radix-\:r0\:-content-tile>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-tile>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-stone>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-stone>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-stone>div,
 #radix-\:r0\:-content-stone>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-stone>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-bouncemasters>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-bouncemasters>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-bouncemasters>div,
 #radix-\:r0\:-content-bouncemasters>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-bouncemasters>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-ball>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-ball>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-ball>div,
 #radix-\:r0\:-content-ball>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-ball>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-pin>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-pin>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-pin>div,
 #radix-\:r0\:-content-pin>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-pin>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-frontier>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-frontier>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-frontier>div,
 #radix-\:r0\:-content-frontier>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-frontier>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-count>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-count>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-count>div,
 #radix-\:r0\:-content-count>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-count>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-water>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-water>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-water>div,
 #radix-\:r0\:-content-water>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-water>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
+#radix-\:r0\:-content-world>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-world>div>div.p-6.pt-0>ul>li>button,
 #radix-\:r0\:-content-world>div,
 #radix-\:r0\:-content-world>div>div.p-6.pt-0>ul>li>div>div,
 #radix-\:r0\:-content-world>div>div.p-6.pt-0>ul>li>button {
     border: 1px solid rgba(216, 197, 197, 0.719);
     background: rgb(41, 38, 38);
     color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
 }
 
 ul {
     max-height: 300px;
     overflow: auto;
+}
+
+ul>li>div>p {
+    font-size: 10px;
 }
 
 
@@ -301,13 +365,24 @@ canvas {
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: black;
+    background: yellow;
     border-radius: 10px;
     width: 50px;
     height: 30px;
     cursor: pointer;
     z-index: 100;
+    animation-name: b;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
+
+@keyframes b{
+    to{
+        background-color: rgb(244, 244, 244);
+    }
+}
+
 
 .news-box {
     position: absolute;
@@ -358,11 +433,12 @@ canvas {
     animation-timing-function: ease-in;
 }
 
-@keyframes newsItem{
-    from{
+@keyframes newsItem {
+    from {
         transform: translateY(-100%);
     }
-    to{
+
+    to {
         transform: translateY(100px);
     }
 }
@@ -419,7 +495,11 @@ canvas {
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
-    border: 2px dashed  rgba(216, 197, 197, 0.719);
+    border: 2px dashed rgba(216, 197, 197, 0.719);
     color: black;
     background: rgb(41, 38, 38);
+}
+
+.selector {
+    width: 100%;
 }
