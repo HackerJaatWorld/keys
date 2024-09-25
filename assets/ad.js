@@ -237,7 +237,7 @@ function checkAllAdsViewed() {
 //     { ad_id: '37', ad_time: 10000, ad_name: 'TapCoin (11 Sept)', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWwUYxmKJy7GxXlA-kg1hn4vEgaI3E12SvV2mQ5dAXs65Amr0SKSJSCrw&s=10', ad_url: 'https://t.me/tapcoinsbot/app?startapp=ref_mwpmZw' },
    { ad_id: 'rats', ad_time: 2000, ad_name: 'Rats Kingdom', img_url: 'https://tg.ratskingdom.com/assets/logo.png', ad_url: 'http://t.me/RatsKingdom_Bot/join?startapp=66ef75ce66079d59e6d14a5f' },
 //      { ad_id: '41', ad_time: 2000, ad_name: 'battle bulls(Today listing  )', img_url: 'https://tg.battle-games.com/static/media/bull-coin.e182b111731e0bfaf937.png', ad_url: 'https://t.me/battle_games_com_bot/start?startapp=frndId1576630572' },
-//     { ad_id: '39', ad_time: 2000, ad_name: 'LovelyLegends Bot (already listed)', img_url: 'https://lovely.finance/_next/image?url=%2Fimg%2Flovely-legends-coin.png&w=1080&q=75', ad_url: 'https://t.me/LovelyLegends_bot/start?startapp=kentId1576630572' },
+   { ad_id: 'bit', ad_time: 2000, ad_name: 'Bit ton (29 September)', img_url: 'https://bits.apps-tonbox.me/images/airdrop-logo.png', ad_url: 'https://t.me/BitsTonboxBot/BitsAirdrops?startapp=V7LQpbC32DyFZmS6wjdqML' },
 //     { ad_id: '40', ad_time: 2000, ad_name: 'Gamee (23 Sep)', img_url: 'https://prizes.gamee.com/_next/static/media/wat-miner.e4e4f3d9.png', ad_url: 'https://t.me/gamee/start?startapp=ref_1576630572' },
   ];
 
