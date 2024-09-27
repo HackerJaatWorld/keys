@@ -214,7 +214,7 @@ function checkAllAdsViewed() {
     { ad_id: '16', ad_time: 5000, ad_name: 'Jion My Channel ', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s', ad_url: 'https://t.me/hamster_keys_tools' },
 //     //   //    { ad_id: '23', ad_time: 10000, ad_name: 'Follow On Instagram', img_url: 'https://static.vecteezy.com/system/resources/previews/023/986/891/original/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png', ad_url: 'https://www.instagram.com/never_trust_in_females' },
 
-     { ad_id: 'hmstr', ad_time: 2000, ad_name: 'Like,Comment, retweet, boycotthamster tag and share', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGocWpve5rHTVIXGhe2h3GqP2y88pk4igPwA&usqp=CAU', ad_url: 'https://x.com/lalsingh1361/status/1837778500318552077?t=BYOOBd212wA3boJDkF9rxg&s=19' },
+//     { ad_id: 'hmstr', ad_time: 2000, ad_name: 'Like,Comment, retweet, boycotthamster tag and share', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGocWpve5rHTVIXGhe2h3GqP2y88pk4igPwA&usqp=CAU', ad_url: 'https://x.com/lalsingh1361/status/1837778500318552077?t=BYOOBd212wA3boJDkF9rxg&s=19' },
 //     //   //   { ad_id: 'yesh-13', ad_time: 10000, ad_name: 'Frogs House Bot', img_url: 'https://frogs.digital/logo.png', ad_url: 'https://t.me/Frogs_HouseBot?start=1576630572' },
 //     { ad_id: 'parmila-14', ad_time: 10000, ad_name: 'X Empire', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvGrT9Cydt0zxopScCN6XCDKjJyix025oswg&s', ad_url: 'https://t.me/empirebot/game?startapp=hero1576630572' },
 //     { ad_id: 'bhavshu-15', ad_time: 10000, ad_name: 'Cats Coin', img_url: 'https://miro.medium.com/v2/resize:fit:640/1*Xk2PdNVI6DDukb5vpi0lhw.jpeg', ad_url: 'https://t.me/catsgang_bot/join?startapp=gOhFclfE-RS9YxdEU7OgT' },
@@ -223,9 +223,9 @@ function checkAllAdsViewed() {
 //     { ad_id: '21', ad_time: 10000, ad_name: 'Tomarket', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjE9BM0sI08drASDE9jYo3YerCam6GZoUCrw&s', ad_url: 'https://t.me/Tomarket_ai_bot/app?startapp=00008HRR' },
 //     { ad_id: '22', ad_time: 10000, ad_name: 'Blum', img_url: 'https://img.bitgetimg.com/multiLang/web/6a914e6e4aa70f6fd2bdf790f0f8401f.png', ad_url: 'https://t.me/blum/app?startapp=ref_ybggfIg6UR' },
 //     { ad_id: '24', ad_time: 30000, ad_name: 'BINANCE Red Packet Giveaway', img_url: 'https://public.bnbstatic.com/image/pgc/202401/92b30901ba1488d8f9569c2eee9bed4d.jpg', ad_url: 'https://s.binance.com/RGckHPIC' },
-//     { ad_id: '25', ad_time: 30000, ad_name: 'Money Dogs', img_url: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQqMVzKphoLZeR2Pa_uNjvZivE1NEdpUfOy83q_7K-3Xbqw_sad', ad_url: 'https://t.me/money_dogs_bot/money_dogs?startapp=LnO3x7jW' },
+    { ad_id: 'money-dog', ad_time: 30000, ad_name: 'Money Dogs', img_url: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQqMVzKphoLZeR2Pa_uNjvZivE1NEdpUfOy83q_7K-3Xbqw_sad', ad_url: 'https://t.me/money_dogs_bot/money_dogs?startapp=LnO3x7jW' },
 //   //  { ad_id: '26', ad_time: 30000, ad_name: 'FindoLucky', img_url: 'https://play-lh.googleusercontent.com/K_clTLFwc5AUyxCOnT2FlenNJl_SSA4MNDmKeXl0v-EVnuoqt7H5mVA3MDkW0-dkTxM=w240-h480-rw', ad_url: 'https://t.me/findoluckybot/app?startapp=NjczMjkxMzA1N182NjY1ODcwNzAw' },
-    { ad_id: 'spinjack', ad_time: 30000, ad_name: 'Spin Jack ', img_url: 'https://img.freepik.com/free-vector/spin-fortune-wheel-luck-background_1017-31403.jpg', ad_url: 'https://t.me/spinjackbot/app?startapp=MTU3NjYzMDU3Ml83MzA4MDE1NDQy' },
+  //  { ad_id: 'spinjack', ad_time: 30000, ad_name: 'Spin Jack ', img_url: 'https://img.freepik.com/free-vector/spin-fortune-wheel-luck-background_1017-31403.jpg', ad_url: 'https://t.me/spinjackbot/app?startapp=MTU3NjYzMDU3Ml83MzA4MDE1NDQy' },
 //     //  { ad_id: '28', ad_time: 30000, ad_name: 'LuckBot', img_url: 'https://img.freepik.com/free-vector/lottery-luck-wheel-fortune-design_1017-25642.jpg', ad_url: 'https://t.me/LuckyCode666_bot/LuckyCoin?startapp=0ChQI2OTL3wsSDAiu-cu2BhD6pOaWAQ' },
 //     { ad_id: 'memecoin', ad_time: 30000, ad_name: 'MemeCoin', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP7I5Ui16gNtqPzjoxCTIhzjwTWMRPy8SWpA&usqp=CAU', ad_url: 'https://t.me/iMemeCatsBot/app?startapp=ref_PAxwja' },
 //        { ad_id: 't-m', ad_time: 30000, ad_name: 'Time farm(listing soon)', img_url: 'https://img-tap-miniapp.chrono.tech/images/wallet/coin-2x.png', ad_url: 'https://t.me/TimeFarmCryptoBot?start=12KbWT3tifYa8Ana0' },
@@ -238,7 +238,7 @@ function checkAllAdsViewed() {
    { ad_id: 'rats', ad_time: 2000, ad_name: 'Rats Kingdom', img_url: 'https://tg.ratskingdom.com/assets/logo.png', ad_url: 'http://t.me/RatsKingdom_Bot/join?startapp=66ef75ce66079d59e6d14a5f' },
 //      { ad_id: '41', ad_time: 2000, ad_name: 'battle bulls(Today listing  )', img_url: 'https://tg.battle-games.com/static/media/bull-coin.e182b111731e0bfaf937.png', ad_url: 'https://t.me/battle_games_com_bot/start?startapp=frndId1576630572' },
    { ad_id: 'bit', ad_time: 2000, ad_name: 'Bit ton (29 September)', img_url: 'https://bits.apps-tonbox.me/images/airdrop-logo.png', ad_url: 'https://t.me/BitsTonboxBot/BitsAirdrops?startapp=V7LQpbC32DyFZmS6wjdqML' },
-//     { ad_id: '40', ad_time: 2000, ad_name: 'Gamee (23 Sep)', img_url: 'https://prizes.gamee.com/_next/static/media/wat-miner.e4e4f3d9.png', ad_url: 'https://t.me/gamee/start?startapp=ref_1576630572' },
+     { ad_id: '40', ad_time: 2000, ad_name: 'Gamee (23 Sep)', img_url: 'https://prizes.gamee.com/_next/static/media/wat-miner.e4e4f3d9.png', ad_url: 'https://t.me/gamee/start?startapp=ref_1576630572' },
   ];
 
   // Display the ads
