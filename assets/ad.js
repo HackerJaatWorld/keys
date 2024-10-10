@@ -282,7 +282,7 @@ function checkAllAdsViewed() {
 //        { ad_id: 'bybit-bot', ad_time: 2000, ad_name: 'bybit Coinsweeper (official bybit bot )', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK8SNonGm06lgyaOovkgq73_urmWhNaadXBoW1R_r12PTVlx5SlJ4YfGU&s=10', ad_url: 'https://t.me/BybitCoinsweeper_Bot?start=referredBy=1576630572' },
 //     { ad_id: 'bit', ad_time: 2000, ad_name: 'Bit ton (29 September)', img_url: 'https://bits.apps-tonbox.me/images/airdrop-logo.png', ad_url: 'https://t.me/BitsTonboxBot/BitsAirdrops?startapp=V7LQpbC32DyFZmS6wjdqML' },
        { ad_id: '40', ad_time: 2000, ad_name: 'Gamee (23 Sep)', img_url: 'https://prizes.gamee.com/_next/static/media/wat-miner.e4e4f3d9.png', ad_url: 'https://t.me/gamee/start?startapp=ref_1576630572' },
-       { ad_id: 'scr', ad_time: 2000, ad_name: 'Scroll 10 hour left', img_url: 'https://bnsol.live/webapp/150x150.scroll1693474620599.png', ad_url: 'https://t.me/scrolldrop_bot?start=0853026d' },
+      // { ad_id: 'scr', ad_time: 2000, ad_name: 'Scroll 10 hour left', img_url: 'https://bnsol.live/webapp/150x150.scroll1693474620599.png', ad_url: 'https://t.me/scrolldrop_bot?start=0853026d' },
  ];
  
   // Display the ads
