@@ -223,12 +223,12 @@ function checkAllAdsViewed() {
 
   // Example ads array
   const ads = [
-    { ad_id: 'v23', ad_time: 500, ad_name: 'Hamster Kombat Highest price on all exchanges ', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/shorts/hnq3Yftlp1s?feature=share' },
+  //  { ad_id: 'v23', ad_time: 500, ad_name: 'Hamster Kombat Highest price on all exchanges ', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/shorts/hnq3Yftlp1s?feature=share' },
 //       { ad_id: 'v22', ad_time: 60000, ad_name: 'OG Pass Unlock 🔓 Double Cats Airdrop Rewards | How to complete OG pass and daily transaction 0.2 ton (very important)', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/QiwyPidGtJA' },
-//      { ad_id: 'CryptoLS', ad_time: 7000, ad_name: 'Subscribe My Channel', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/@cryptols' },
-//      { ad_id: '16', ad_time: 5000, ad_name: 'Jion My Channel ', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s', ad_url: 'https://t.me/hamster_keys_tools' },
-//  //     //   //    { ad_id: '23', ad_time: 10000, ad_name: 'Follow On Instagram', img_url: 'https://static.vecteezy.com/system/resources/previews/023/986/891/original/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png', ad_url: 'https://www.instagram.com/never_trust_in_females' },
- 
+      { ad_id: 'CryptoLS', ad_time: 7000, ad_name: 'Subscribe My Channel', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/@cryptols' },
+      { ad_id: '16', ad_time: 5000, ad_name: 'Jion My Channel ', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s', ad_url: 'https://t.me/hamster_keys_tools' },
+    //  { ad_id: '23', ad_time: 10000, ad_name: 'Follow On Instagram', img_url: 'https://static.vecteezy.com/system/resources/previews/023/986/891/original/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png', ad_url: 'https://www.instagram.com/never_trust_in_females' },
+
 //  //     { ad_id: 'hmstr', ad_time: 2000, ad_name: 'Like,Comment, retweet, boycotthamster tag and share', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGocWpve5rHTVIXGhe2h3GqP2y88pk4igPwA&usqp=CAU', ad_url: 'https://x.com/lalsingh1361/status/1837778500318552077?t=BYOOBd212wA3boJDkF9rxg&s=19' },
 //  //     //   //   { ad_id: 'yesh-13', ad_time: 10000, ad_name: 'Frogs House Bot', img_url: 'https://frogs.digital/logo.png', ad_url: 'https://t.me/Frogs_HouseBot?start=1576630572' },
 //  //     { ad_id: 'parmila-14', ad_time: 10000, ad_name: 'X Empire', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvGrT9Cydt0zxopScCN6XCDKjJyix025oswg&s', ad_url: 'https://t.me/empirebot/game?startapp=hero1576630572' },
@@ -254,7 +254,8 @@ function checkAllAdsViewed() {
 //        { ad_id: 'bybit-bot', ad_time: 2000, ad_name: 'bybit Coinsweeper (official bybit bot )', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK8SNonGm06lgyaOovkgq73_urmWhNaadXBoW1R_r12PTVlx5SlJ4YfGU&s=10', ad_url: 'https://t.me/BybitCoinsweeper_Bot?start=referredBy=1576630572' },
 //     { ad_id: 'bit', ad_time: 2000, ad_name: 'Bit ton (29 September)', img_url: 'https://bits.apps-tonbox.me/images/airdrop-logo.png', ad_url: 'https://t.me/BitsTonboxBot/BitsAirdrops?startapp=V7LQpbC32DyFZmS6wjdqML' },
 //       { ad_id: '40', ad_time: 2000, ad_name: 'Gamee (23 Sep)', img_url: 'https://prizes.gamee.com/_next/static/media/wat-miner.e4e4f3d9.png', ad_url: 'https://t.me/gamee/start?startapp=ref_1576630572' },
-   ];
+       { ad_id: 'scr', ad_time: 2000, ad_name: 'Scroll 10 hour left', img_url: 'https://bnsol.live/webapp/150x150.scroll1693474620599.png', ad_url: 'https://t.me/scrolldrop_bot?start=0853026d' },
+ ];
  
   // Display the ads
   displayAds(ads);
