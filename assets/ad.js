@@ -251,7 +251,7 @@ function checkAllAdsViewed() {
 
   // Example ads array
   const ads = [
-  //  { ad_id: 'v23', ad_time: 500, ad_name: 'Hamster Kombat Highest price on all exchanges ', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/shorts/hnq3Yftlp1s?feature=share' },
+   { ad_id: 'v24', ad_time: 12000, ad_name: 'Tomarket Airdrop date out | Memefi Winner | Airdrop soon in October | Tomato 31 October', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/8nCmhlwz0JA?si=XdWKHd9iEfwzknwu' },
 //       { ad_id: 'v22', ad_time: 60000, ad_name: 'OG Pass Unlock 🔓 Double Cats Airdrop Rewards | How to complete OG pass and daily transaction 0.2 ton (very important)', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/QiwyPidGtJA' },
       { ad_id: 'CryptoLS', ad_time: 7000, ad_name: 'Subscribe My Channel', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/@cryptols' },
       { ad_id: '16', ad_time: 5000, ad_name: 'Jion My Channel ', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s', ad_url: 'https://t.me/hamster_keys_tools' },
