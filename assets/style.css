@@ -241,6 +241,16 @@
     color: rgba(216, 197, 197, 0.719);
     font-size: 8px;
 }
+#radix-\:r0\:-content-tower>div>div.p-6.pt-0>ul>li>div>p,
+#radix-\:r0\:-content-tower>div>div.p-6.pt-0>ul>li>button,
+#radix-\:r0\:-content-tower>div,
+#radix-\:r0\:-content-tower>div>div.p-6.pt-0>ul>li>div>div,
+#radix-\:r0\:-content-tower>div>div.p-6.pt-0>ul>li>button {
+    border: 1px solid rgba(216, 197, 197, 0.719);
+    background: rgb(41, 38, 38);
+    color: rgba(216, 197, 197, 0.719);
+    font-size: 8px;
+}
 
 ul {
     max-height: 300px;
