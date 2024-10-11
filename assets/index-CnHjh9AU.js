@@ -11061,142 +11061,6 @@ function R0() {
 
 
 
-
-const P1 = "61308365-9d16-4040-8bb0-2f4a4c69074c",  // New P1 ID
-   j1 = "61308365-9d16-4040-8bb0-2f4a4c69074c",  // New j1 ID
-   zo1 = new ro(P1, j1);  // New instance of ro with the new IDs
-
-function T1() {
-   const [e1, t1] = x.useState([null, null, null, null]),
-      n1 = Ke(u => u.status),
-      r1 = Ke(u => u.setStatus),
-      [o1, l1] = x.useState(0),
-      { copy: i1 } = no();
-
-   const handleMore = () => {
-      console.log("Button was clicked!");
-
-      // Toggle the visibility
-      const root = document.getElementById("root");
-      const rootMore = document.getElementById("root_more");
-      rootMore.style.display = '';
-      root.style.display = 'none';
-   };
-
-   const copyAllCodes = () => {
-      const allCodes = e1.filter(Boolean).join('\n');
-      if (allCodes) {
-         i(allCodes);
-         tt(v.jsxs("div", {
-            className: "flex justify-center items-center",
-            children: [
-               v.jsx(Jr, { size: 16, className: "mr-2" }),
-               " ",
-               v.jsx("span", { children: "All Codes Copied!" })
-            ]
-         }));
-      } else {
-         tt("No codes to copy");
-      }
-   };
-
-   return x.useEffect(() => {
-      if ("wait" !== n1) return;
-      const u1 = setInterval(() => {
-         l1(d1 => d1 < 100 ? d1 + 1 : (clearInterval(u1), 100));
-      }, 1e3);
-      return () => clearInterval(u1);
-   }, [n1]), v.jsxs(Kn, {
-      children: [v.jsxs(Gn, {
-         children: [v.jsx(Qn, {
-            children: "Twerk"
-         }), v.jsxs(Yn, {
-            children: ["click ", v.jsx("b", {
-               children: "Generate"
-            }), " to use"]
-         })]
-      }), v.jsx(Xn, {
-         children: v.jsxs("ul", {
-            className: "space-y-2",
-            children: [e1.map((u1, d1) => v.jsxs("li", {
-               className: "flex justify-between items-center gap-4",
-               children: [u1 ? v.jsx(to, {
-                  code: u1
-               }) : v.jsx(eo, {
-                  animation: "wait" === n1
-               }), v.jsx(He, {
-                  variant: "outline",
-                  size: "sm",
-                  onClick: () => function s1(u1) {
-                     i1(u1), tt(v.jsxs("div", {
-                        className: "flex justify-center items-center",
-                        children: [v.jsx(Jr, {
-                           size: 16,
-                           className: "mr-2"
-                        }), " ", v.jsx("span", {
-                           children: "Copied!"
-                        })]
-                     }));
-                  }(u1),
-                  disabled: !u1,
-                  children: v.jsx(Zr, {
-                     size: 12
-                  })
-               })]
-            }, d1)), v.jsxs("p", {
-               className: "text-center font-medium mt-4",
-               children: [o1, "%"]
-            }), v.jsx(Zn, {
-               value: o1,
-               className: "progressbar"
-            })]
-         })
-      }),
-
-      v.jsxs("div", {
-         className: "flex gap-1",
-         children: [
-            v.jsx(Jn, {
-               children: v.jsxs(He, {
-                  onClick: async function a1() {
-                     try {
-                        t1([null, null, null, null]), r1("wait"), l1(0);
-                        const u1 = await Promise.all([zo1.generate(), zo1.generate(), zo1.generate(), zo1.generate()]);
-                        t1(u1), r1("done"), l1(100);
-                        const generatedCodeCount = parseInt(localStorage.getItem('generatedCodeCount') || '0');
-                        const newCount = generatedCodeCount + 4;
-                        localStorage.setItem('generatedCodeCount', newCount);
-
-                     } catch (u1) {
-                        console.log("Error:", u1);
-                        tt("Error");
-                        t1([null, null, null, null]);
-                        r1("idle");
-                        l1(0);
-                     }
-                  },
-                  disabled: "wait" === n1,
-                  children: [
-                     v.jsx(qr, { size: 16, className: "mr-2" }),
-                     "Generate"
-                  ]
-               })
-            }),
-            v.jsx(He, {
-               onClick: copyAllCodes,  // Ensure this is correctly spelled
-               children: "Copy All"
-            }),
-            v.jsx(He, {
-               onClick: handleMore,  // Ensure this is correctly spelled
-               children: "More"
-            })
-         ]
-      })
-
-      ]
-   });
-}
-
 const pol1 = "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71",
    pol2 = "2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71",
    pol3 = new ro(pol1, pol2);
@@ -11334,275 +11198,7 @@ function PoLy() {
 
 
 
-const fluff1 = "112887b0-a8af-4eb2-ac63-d82df78283d9",
-   fluff2 = "112887b0-a8af-4eb2-ac63-d82df78283d9",
-   fluff3 = new ro(fluff1, fluff2);
 
-function fluff() {
-   const [codes, setCodes] = x.useState([null, null, null, null]),
-      currentStatus = Ke(u => u.status),
-      setCurrentStatus = Ke(u => u.setStatus),
-      [progress, setProgress] = x.useState(0),
-      {
-         copy: copyToClipboard
-      } = no();
-
-   const showMoreOptions = () => {
-      console.log("More Options Button Clicked!");
-
-      // Toggle the visibility
-      const root = document.getElementById("root");
-      const moreOptions = document.getElementById("root_more");
-      moreOptions.style.display = '';
-      root.style.display = 'none';
-   };
-
-   const copyAllCodes = () => {
-      const allCodes = codes.filter(Boolean).join('\n');
-      if (allCodes) {
-         copyToClipboard(allCodes);
-         tt(v.jsxs("div", {
-            className: "flex justify-center items-center",
-            children: [
-               v.jsx(Jr, { size: 16, className: "mr-2" }),
-               " ",
-               v.jsx("span", { children: "All Codes Copied!" })
-            ]
-         }));
-      } else {
-         tt("No codes to copy");
-      }
-   };
-
-   return x.useEffect(() => {
-      if ("wait" !== currentStatus) return;
-      const intervalId = setInterval(() => {
-         setProgress(p => p < 100 ? p + 1 : (clearInterval(intervalId), 100));
-      }, 1000);
-      return () => clearInterval(intervalId);
-   }, [currentStatus]), v.jsxs(Kn, {
-      children: [v.jsxs(Gn, {
-         children: [v.jsx(Qn, {
-            children: "Fluff Crusade"
-         }), v.jsxs(Yn, {
-            children: ["click ", v.jsx("b", {
-               children: "Generate"
-            }), " to use"]
-         })]
-      }), v.jsx(Xn, {
-         children: v.jsxs("ul", {
-            className: "space-y-2",
-            children: [codes.map((code, index) => v.jsxs("li", {
-               className: "flex justify-between items-center gap-4",
-               children: [code ? v.jsx(to, {
-                  code: code
-               }) : v.jsx(eo, {
-                  animation: "wait" === currentStatus
-               }), v.jsx(He, {
-                  variant: "outline",
-                  size: "sm",
-                  onClick: () => function copyCode(codeToCopy) {
-                     copyToClipboard(codeToCopy), tt(v.jsxs("div", {
-                        className: "flex justify-center items-center",
-                        children: [v.jsx(Jr, {
-                           size: 16,
-                           className: "mr-2"
-                        }), " ", v.jsx("span", {
-                           children: "Copied!"
-                        })]
-                     }));
-                  }(code),
-                  disabled: !code,
-                  children: v.jsx(Zr, {
-                     size: 12
-                  })
-               })]
-            }, index)), v.jsxs("p", {
-               className: "text-center font-medium mt-4",
-               children: [progress, "%"]
-            }), v.jsx(Zn, {
-               value: progress,
-               className: "progressbar"
-            })]
-         })
-      }),
-      v.jsxs("div", {
-         className: "flex gap-1",
-         children: [
-            v.jsx(Jn, {
-               children: v.jsxs(He, {
-                  onClick: async function generateCodes() {
-                     try {
-                        setCodes([null, null, null, null]), setCurrentStatus("wait"), setProgress(0);
-                        const newCodes = await Promise.all([fluff3.generate(), fluff3.generate(), fluff3.generate(), fluff3.generate()]);
-                        setCodes(newCodes), setCurrentStatus("done"), setProgress(100);
-                        const generatedCodeCount = parseInt(localStorage.getItem('generatedCodeCount') || '0');
-                        const newCount = generatedCodeCount + 4;
-                        localStorage.setItem('generatedCodeCount', newCount);
-
-                     } catch (error) {
-                        console.log("Error:", error);
-                        tt("Error");
-                        setCodes([null, null, null, null]);
-                        setCurrentStatus("idle");
-                        setProgress(0);
-                     }
-                  },
-                  disabled: "wait" === currentStatus,
-                  children: [
-                     v.jsx(qr, { size: 16, className: "mr-2" }),
-                     "Generate"
-                  ]
-               })
-            }),
-            v.jsx(He, {
-               onClick: copyAllCodes,
-               children: "Copy All"
-            }),
-            v.jsx(He, {
-               onClick: showMoreOptions,
-               children: "More"
-            })
-         ]
-      })
-      ]
-   });
-}
-
-const tile1 = "e68b39d2-4880-4a31-b3aa-0393e7df10c7",
-   tile2 = "e68b39d2-4880-4a31-b3aa-0393e7df10c7",
-   tile3 = new ro(tile1, tile2);
-
-function tile() {
-   const [codes, setCodes] = x.useState([null, null, null, null]),
-      currentStatus = Ke(u => u.status),
-      setCurrentStatus = Ke(u => u.setStatus),
-      [progress, setProgress] = x.useState(0),
-      {
-         copy: copyToClipboard
-      } = no();
-
-   const showMoreOptions = () => {
-      console.log("More Options Button Clicked!");
-
-      // Toggle the visibility
-      const root = document.getElementById("root");
-      const moreOptions = document.getElementById("root_more");
-      moreOptions.style.display = '';
-      root.style.display = 'none';
-   };
-
-   const copyAllCodes = () => {
-      const allCodes = codes.filter(Boolean).join('\n');
-      if (allCodes) {
-         copyToClipboard(allCodes);
-         tt(v.jsxs("div", {
-            className: "flex justify-center items-center",
-            children: [
-               v.jsx(Jr, { size: 16, className: "mr-2" }),
-               " ",
-               v.jsx("span", { children: "All Codes Copied!" })
-            ]
-         }));
-      } else {
-         tt("No codes to copy");
-      }
-   };
-
-   return x.useEffect(() => {
-      if ("wait" !== currentStatus) return;
-      const intervalId = setInterval(() => {
-         setProgress(p => p < 100 ? p + 1 : (clearInterval(intervalId), 100));
-      }, 1000);
-      return () => clearInterval(intervalId);
-   }, [currentStatus]), v.jsxs(Kn, {
-      children: [v.jsxs(Gn, {
-         children: [v.jsx(Qn, {
-            children: "Tile Trio"
-         }), v.jsxs(Yn, {
-            children: ["click ", v.jsx("b", {
-               children: "Generate"
-            }), " to use"]
-         })]
-      }), v.jsx(Xn, {
-         children: v.jsxs("ul", {
-            className: "space-y-2",
-            children: [codes.map((code, index) => v.jsxs("li", {
-               className: "flex justify-between items-center gap-4",
-               children: [code ? v.jsx(to, {
-                  code: code
-               }) : v.jsx(eo, {
-                  animation: "wait" === currentStatus
-               }), v.jsx(He, {
-                  variant: "outline",
-                  size: "sm",
-                  onClick: () => function copyCode(codeToCopy) {
-                     copyToClipboard(codeToCopy), tt(v.jsxs("div", {
-                        className: "flex justify-center items-center",
-                        children: [v.jsx(Jr, {
-                           size: 16,
-                           className: "mr-2"
-                        }), " ", v.jsx("span", {
-                           children: "Copied!"
-                        })]
-                     }));
-                  }(code),
-                  disabled: !code,
-                  children: v.jsx(Zr, {
-                     size: 12
-                  })
-               })]
-            }, index)), v.jsxs("p", {
-               className: "text-center font-medium mt-4",
-               children: [progress, "%"]
-            }), v.jsx(Zn, {
-               value: progress,
-               className: "progressbar"
-            })]
-         })
-      }),
-      v.jsxs("div", {
-         className: "flex gap-1",
-         children: [
-            v.jsx(Jn, {
-               children: v.jsxs(He, {
-                  onClick: async function generateCodes() {
-                     try {
-                        setCodes([null, null, null, null]), setCurrentStatus("wait"), setProgress(0);
-                        const newCodes = await Promise.all([tile3.generate(), tile3.generate(), tile3.generate(), tile3.generate()]);
-                        setCodes(newCodes), setCurrentStatus("done"), setProgress(100);
-                        const generatedCodeCount = parseInt(localStorage.getItem('generatedCodeCount') || '0');
-                        const newCount = generatedCodeCount + 4;
-                        localStorage.setItem('generatedCodeCount', newCount);
-
-                     } catch (error) {
-                        console.log("Error:", error);
-                        tt("Error");
-                        setCodes([null, null, null, null]);
-                        setCurrentStatus("idle");
-                        setProgress(0);
-                     }
-                  },
-                  disabled: "wait" === currentStatus,
-                  children: [
-                     v.jsx(qr, { size: 16, className: "mr-2" }),
-                     "Generate"
-                  ]
-               })
-            }),
-            v.jsx(He, {
-               onClick: copyAllCodes,
-               children: "Copy All"
-            }),
-            v.jsx(He, {
-               onClick: showMoreOptions,
-               children: "More"
-            })
-         ]
-      })
-      ]
-   });
-}
 
 const stone1 = "04ebd6de-69b7-43d1-9c4b-04a6ca3305af",
    stone2 = "04ebd6de-69b7-43d1-9c4b-04a6ca3305af",
@@ -11738,140 +11334,8 @@ function stone() {
       ]
    });
 }
-const mow1 = "ef319a80-949a-492e-8ee0-424fb5fc20a6",
-   mow2 = "ef319a80-949a-492e-8ee0-424fb5fc20a6",
-   mow3 = new ro(mow1, mow2);
 
-function mow() {
-   const [codes, setCodes] = x.useState([null, null, null, null]),
-      currentStatus = Ke(u => u.status),
-      setCurrentStatus = Ke(u => u.setStatus),
-      [progress, setProgress] = x.useState(0),
-      {
-         copy: copyToClipboard
-      } = no();
 
-   const showMoreOptions = () => {
-      console.log("More Options Button Clicked!");
-
-      // Toggle the visibility
-      const root = document.getElementById("root");
-      const moreOptions = document.getElementById("root_more");
-      moreOptions.style.display = '';
-      root.style.display = 'none';
-   };
-
-   const copyAllCodes = () => {
-      const allCodes = codes.filter(Boolean).join('\n');
-      if (allCodes) {
-         copyToClipboard(allCodes);
-         tt(v.jsxs("div", {
-            className: "flex justify-center items-center",
-            children: [
-               v.jsx(Jr, { size: 16, className: "mr-2" }),
-               " ",
-               v.jsx("span", { children: "All Codes Copied!" })
-            ]
-         }));
-      } else {
-         tt("No codes to copy");
-      }
-   };
-
-   return x.useEffect(() => {
-      if ("wait" !== currentStatus) return;
-      const intervalId = setInterval(() => {
-         setProgress(p => p < 100 ? p + 1 : (clearInterval(intervalId), 100));
-      }, 1000);
-      return () => clearInterval(intervalId);
-   }, [currentStatus]), v.jsxs(Kn, {
-      children: [v.jsxs(Gn, {
-         children: [v.jsx(Qn, {
-            children: "Mow and Trim"
-         }), v.jsxs(Yn, {
-            children: ["click ", v.jsx("b", {
-               children: "Generate"
-            }), " to use"]
-         })]
-      }), v.jsx(Xn, {
-         children: v.jsxs("ul", {
-            className: "space-y-2",
-            children: [codes.map((code, index) => v.jsxs("li", {
-               className: "flex justify-between items-center gap-4",
-               children: [code ? v.jsx(to, {
-                  code: code
-               }) : v.jsx(eo, {
-                  animation: "wait" === currentStatus
-               }), v.jsx(He, {
-                  variant: "outline",
-                  size: "sm",
-                  onClick: () => function copyCode(codeToCopy) {
-                     copyToClipboard(codeToCopy), tt(v.jsxs("div", {
-                        className: "flex justify-center items-center",
-                        children: [v.jsx(Jr, {
-                           size: 16,
-                           className: "mr-2"
-                        }), " ", v.jsx("span", {
-                           children: "Copied!"
-                        })]
-                     }));
-                  }(code),
-                  disabled: !code,
-                  children: v.jsx(Zr, {
-                     size: 12
-                  })
-               })]
-            }, index)), v.jsxs("p", {
-               className: "text-center font-medium mt-4",
-               children: [progress, "%"]
-            }), v.jsx(Zn, {
-               value: progress,
-               className: "progressbar"
-            })]
-         })
-      }),
-      v.jsxs("div", {
-         className: "flex gap-1",
-         children: [
-            v.jsx(Jn, {
-               children: v.jsxs(He, {
-                  onClick: async function generateCodes() {
-                     try {
-                        setCodes([null, null, null, null]), setCurrentStatus("wait"), setProgress(0);
-                        const newCodes = await Promise.all([mow3.generate(), mow3.generate(), mow3.generate(), mow3.generate()]);
-                        setCodes(newCodes), setCurrentStatus("done"), setProgress(100);
-                        const generatedCodeCount = parseInt(localStorage.getItem('generatedCodeCount') || '0');
-                        const newCount = generatedCodeCount + 4;
-                        localStorage.setItem('generatedCodeCount', newCount);
-
-                     } catch (error) {
-                        console.log("Error:", error);
-                        tt("Error");
-                        setCodes([null, null, null, null]);
-                        setCurrentStatus("idle");
-                        setProgress(0);
-                     }
-                  },
-                  disabled: "wait" === currentStatus,
-                  children: [
-                     v.jsx(qr, { size: 16, className: "mr-2" }),
-                     "Generate"
-                  ]
-               })
-            }),
-            v.jsx(He, {
-               onClick: copyAllCodes,
-               children: "Copy All"
-            }),
-            v.jsx(He, {
-               onClick: showMoreOptions,
-               children: "More"
-            })
-         ]
-      })
-      ]
-   });
-}
 
 const bouncemasters1 = "bc72d3b9-8e91-4884-9c33-f72482f0db37",
    bouncemasters2 = "bc72d3b9-8e91-4884-9c33-f72482f0db37",
@@ -12144,140 +11608,7 @@ function ball() {
    });
 }
 
-const pin1 = "d2378baf-d617-417a-9d99-d685824335f0",
-   pin2 = "d2378baf-d617-417a-9d99-d685824335f0",
-   pin3 = new ro(pin1, pin2);
 
-function pin() {
-   const [codes, setCodes] = x.useState([null, null, null, null]),
-      currentStatus = Ke(u => u.status),
-      setCurrentStatus = Ke(u => u.setStatus),
-      [progress, setProgress] = x.useState(0),
-      {
-         copy: copyToClipboard
-      } = no();
-
-   const showMoreOptions = () => {
-      console.log("More Options Button Clicked!");
-
-      // Toggle the visibility
-      const root = document.getElementById("root");
-      const moreOptions = document.getElementById("root_more");
-      moreOptions.style.display = '';
-      root.style.display = 'none';
-   };
-
-   const copyAllCodes = () => {
-      const allCodes = codes.filter(Boolean).join('\n');
-      if (allCodes) {
-         copyToClipboard(allCodes);
-         tt(v.jsxs("div", {
-            className: "flex justify-center items-center",
-            children: [
-               v.jsx(Jr, { size: 16, className: "mr-2" }),
-               " ",
-               v.jsx("span", { children: "All Codes Copied!" })
-            ]
-         }));
-      } else {
-         tt("No codes to copy");
-      }
-   };
-
-   return x.useEffect(() => {
-      if ("wait" !== currentStatus) return;
-      const intervalId = setInterval(() => {
-         setProgress(p => p < 100 ? p + 1 : (clearInterval(intervalId), 100));
-      }, 1000);
-      return () => clearInterval(intervalId);
-   }, [currentStatus]), v.jsxs(Kn, {
-      children: [v.jsxs(Gn, {
-         children: [v.jsx(Qn, {
-            children: "Pin Out Master"
-         }), v.jsxs(Yn, {
-            children: ["click ", v.jsx("b", {
-               children: "Generate"
-            }), " to use"]
-         })]
-      }), v.jsx(Xn, {
-         children: v.jsxs("ul", {
-            className: "space-y-2",
-            children: [codes.map((code, index) => v.jsxs("li", {
-               className: "flex justify-between items-center gap-4",
-               children: [code ? v.jsx(to, {
-                  code: code
-               }) : v.jsx(eo, {
-                  animation: "wait" === currentStatus
-               }), v.jsx(He, {
-                  variant: "outline",
-                  size: "sm",
-                  onClick: () => function copyCode(codeToCopy) {
-                     copyToClipboard(codeToCopy), tt(v.jsxs("div", {
-                        className: "flex justify-center items-center",
-                        children: [v.jsx(Jr, {
-                           size: 16,
-                           className: "mr-2"
-                        }), " ", v.jsx("span", {
-                           children: "Copied!"
-                        })]
-                     }));
-                  }(code),
-                  disabled: !code,
-                  children: v.jsx(Zr, {
-                     size: 12
-                  })
-               })]
-            }, index)), v.jsxs("p", {
-               className: "text-center font-medium mt-4",
-               children: [progress, "%"]
-            }), v.jsx(Zn, {
-               value: progress,
-               className: "progressbar"
-            })]
-         })
-      }),
-      v.jsxs("div", {
-         className: "flex gap-1",
-         children: [
-            v.jsx(Jn, {
-               children: v.jsxs(He, {
-                  onClick: async function generateCodes() {
-                     try {
-                        setCodes([null, null, null, null]), setCurrentStatus("wait"), setProgress(0);
-                        const newCodes = await Promise.all([pin3.generate(), pin3.generate(), pin3.generate(), pin3.generate()]);
-                        setCodes(newCodes), setCurrentStatus("done"), setProgress(100);
-                        const generatedCodeCount = parseInt(localStorage.getItem('generatedCodeCount') || '0');
-                        const newCount = generatedCodeCount + 4;
-                        localStorage.setItem('generatedCodeCount', newCount);
-
-                     } catch (error) {
-                        console.log("Error:", error);
-                        tt("Error");
-                        setCodes([null, null, null, null]);
-                        setCurrentStatus("idle");
-                        setProgress(0);
-                     }
-                  },
-                  disabled: "wait" === currentStatus,
-                  children: [
-                     v.jsx(qr, { size: 16, className: "mr-2" }),
-                     "Generate"
-                  ]
-               })
-            }),
-            v.jsx(He, {
-               onClick: copyAllCodes,
-               children: "Copy All"
-            }),
-            v.jsx(He, {
-               onClick: showMoreOptions,
-               children: "More"
-            })
-         ]
-      })
-      ]
-   });
-}
 
 
 const frontier1 = "eb518c4b-e448-4065-9d33-06f3039f0fcb",
@@ -12551,281 +11882,8 @@ function count() {
    });
 }
 
-                           
 
-const water1 = "daab8f83-8ea2-4ad0-8dd5-d33363129640",
-   water2 = "daab8f83-8ea2-4ad0-8dd5-d33363129640",
-   water3 = new ro(water1, water2);
 
-function water() {
-   const [codes, setCodes] = x.useState([null, null, null, null]),
-      currentStatus = Ke(u => u.status),
-      setCurrentStatus = Ke(u => u.setStatus),
-      [progress, setProgress] = x.useState(0),
-      {
-         copy: copyToClipboard
-      } = no();
-
-   const showMoreOptions = () => {
-      console.log("More Options Button Clicked!");
-
-      // Toggle the visibility
-      const root = document.getElementById("root");
-      const moreOptions = document.getElementById("root_more");
-      moreOptions.style.display = '';
-      root.style.display = 'none';
-   };
-
-   const copyAllCodes = () => {
-      const allCodes = codes.filter(Boolean).join('\n');
-      if (allCodes) {
-         copyToClipboard(allCodes);
-         tt(v.jsxs("div", {
-            className: "flex justify-center items-center",
-            children: [
-               v.jsx(Jr, { size: 16, className: "mr-2" }),
-               " ",
-               v.jsx("span", { children: "All Codes Copied!" })
-            ]
-         }));
-      } else {
-         tt("No codes to copy");
-      }
-   };
-
-   return x.useEffect(() => {
-      if ("wait" !== currentStatus) return;
-      const intervalId = setInterval(() => {
-         setProgress(p => p < 100 ? p + 1 : (clearInterval(intervalId), 100));
-      }, 1000);
-      return () => clearInterval(intervalId);
-   }, [currentStatus]), v.jsxs(Kn, {
-      children: [v.jsxs(Gn, {
-         children: [v.jsx(Qn, {
-            children: "Among Water"
-         }), v.jsxs(Yn, {
-            children: ["click ", v.jsx("b", {
-               children: "Generate"
-            }), " to use"]
-         })]
-      }), v.jsx(Xn, {
-         children: v.jsxs("ul", {
-            className: "space-y-2",
-            children: [codes.map((code, index) => v.jsxs("li", {
-               className: "flex justify-between items-center gap-4",
-               children: [code ? v.jsx(to, {
-                  code: code
-               }) : v.jsx(eo, {
-                  animation: "wait" === currentStatus
-               }), v.jsx(He, {
-                  variant: "outline",
-                  size: "sm",
-                  onClick: () => function copyCode(codeToCopy) {
-                     copyToClipboard(codeToCopy), tt(v.jsxs("div", {
-                        className: "flex justify-center items-center",
-                        children: [v.jsx(Jr, {
-                           size: 16,
-                           className: "mr-2"
-                        }), " ", v.jsx("span", {
-                           children: "Copied!"
-                        })]
-                     }));
-                  }(code),
-                  disabled: !code,
-                  children: v.jsx(Zr, {
-                     size: 12
-                  })
-               })]
-            }, index)), v.jsxs("p", {
-               className: "text-center font-medium mt-4",
-               children: [progress, "%"]
-            }), v.jsx(Zn, {
-               value: progress,
-               className: "progressbar"
-            })]
-         })
-      }),
-      v.jsxs("div", {
-         className: "flex gap-1",
-         children: [
-            v.jsx(Jn, {
-               children: v.jsxs(He, {
-                  onClick: async function generateCodes() {
-                     try {
-                        setCodes([null, null, null, null]), setCurrentStatus("wait"), setProgress(0);
-                        const newCodes = await Promise.all([water3.generate(), water3.generate(), water3.generate(), water3.generate()]);
-                        setCodes(newCodes), setCurrentStatus("done"), setProgress(100);
-                        const generatedCodeCount = parseInt(localStorage.getItem('generatedCodeCount') || '0');
-                        const newCount = generatedCodeCount + 4;
-                        localStorage.setItem('generatedCodeCount', newCount);
-
-                     } catch (error) {
-                        console.log("Error:", error);
-                        tt("Error");
-                        setCodes([null, null, null, null]);
-                        setCurrentStatus("idle");
-                        setProgress(0);
-                     }
-                  },
-                  disabled: "wait" === currentStatus,
-                  children: [
-                     v.jsx(qr, { size: 16, className: "mr-2" }),
-                     "Generate"
-                  ]
-               })
-            }),
-            v.jsx(He, {
-               onClick: copyAllCodes,
-               children: "Copy All"
-            }),
-            v.jsx(He, {
-               onClick: showMoreOptions,
-               children: "More"
-            })
-         ]
-      })
-      ]
-   });
-}
-
-                           
-
-const world1 = "d02fc404-8985-4305-87d8-32bd4e66bb16",
-   world2 = "d02fc404-8985-4305-87d8-32bd4e66bb16",
-   world3 = new ro(world1, world2);
-
-function world() {
-   const [codes, setCodes] = x.useState([null, null, null, null]),
-      currentStatus = Ke(u => u.status),
-      setCurrentStatus = Ke(u => u.setStatus),
-      [progress, setProgress] = x.useState(0),
-      {
-         copy: copyToClipboard
-      } = no();
-
-   const showMoreOptions = () => {
-      console.log("More Options Button Clicked!");
-
-      // Toggle the visibility
-      const root = document.getElementById("root");
-      const moreOptions = document.getElementById("root_more");
-      moreOptions.style.display = '';
-      root.style.display = 'none';
-   };
-
-   const copyAllCodes = () => {
-      const allCodes = codes.filter(Boolean).join('\n');
-      if (allCodes) {
-         copyToClipboard(allCodes);
-         tt(v.jsxs("div", {
-            className: "flex justify-center items-center",
-            children: [
-               v.jsx(Jr, { size: 16, className: "mr-2" }),
-               " ",
-               v.jsx("span", { children: "All Codes Copied!" })
-            ]
-         }));
-      } else {
-         tt("No codes to copy");
-      }
-   };
-
-   return x.useEffect(() => {
-      if ("wait" !== currentStatus) return;
-      const intervalId = setInterval(() => {
-         setProgress(p => p < 100 ? p + 1 : (clearInterval(intervalId), 100));
-      }, 1000);
-      return () => clearInterval(intervalId);
-   }, [currentStatus]), v.jsxs(Kn, {
-      children: [v.jsxs(Gn, {
-         children: [v.jsx(Qn, {
-            children: "Factory World"
-         }), v.jsxs(Yn, {
-            children: ["click ", v.jsx("b", {
-               children: "Generate"
-            }), " to use"]
-         })]
-      }), v.jsx(Xn, {
-         children: v.jsxs("ul", {
-            className: "space-y-2",
-            children: [codes.map((code, index) => v.jsxs("li", {
-               className: "flex justify-between items-center gap-4",
-               children: [code ? v.jsx(to, {
-                  code: code
-               }) : v.jsx(eo, {
-                  animation: "wait" === currentStatus
-               }), v.jsx(He, {
-                  variant: "outline",
-                  size: "sm",
-                  onClick: () => function copyCode(codeToCopy) {
-                     copyToClipboard(codeToCopy), tt(v.jsxs("div", {
-                        className: "flex justify-center items-center",
-                        children: [v.jsx(Jr, {
-                           size: 16,
-                           className: "mr-2"
-                        }), " ", v.jsx("span", {
-                           children: "Copied!"
-                        })]
-                     }));
-                  }(code),
-                  disabled: !code,
-                  children: v.jsx(Zr, {
-                     size: 12
-                  })
-               })]
-            }, index)), v.jsxs("p", {
-               className: "text-center font-medium mt-4",
-               children: [progress, "%"]
-            }), v.jsx(Zn, {
-               value: progress,
-               className: "progressbar"
-            })]
-         })
-      }),
-      v.jsxs("div", {
-         className: "flex gap-1",
-         children: [
-            v.jsx(Jn, {
-               children: v.jsxs(He, {
-                  onClick: async function generateCodes() {
-                     try {
-                        setCodes([null, null, null, null]), setCurrentStatus("wait"), setProgress(0);
-                        const newCodes = await Promise.all([world3.generate(), world3.generate(), world3.generate(), world3.generate()]);
-                        setCodes(newCodes), setCurrentStatus("done"), setProgress(100);
-                        const generatedCodeCount = parseInt(localStorage.getItem('generatedCodeCount') || '0');
-                        const newCount = generatedCodeCount + 4;
-                        localStorage.setItem('generatedCodeCount', newCount);
-
-                     } catch (error) {
-                        console.log("Error:", error);
-                        tt("Error");
-                        setCodes([null, null, null, null]);
-                        setCurrentStatus("idle");
-                        setProgress(0);
-                     }
-                  },
-                  disabled: "wait" === currentStatus,
-                  children: [
-                     v.jsx(qr, { size: 16, className: "mr-2" }),
-                     "Generate"
-                  ]
-               })
-            }),
-            v.jsx(He, {
-               onClick: copyAllCodes,
-               children: "Copy All"
-            }),
-            v.jsx(He, {
-               onClick: showMoreOptions,
-               children: "More"
-            })
-         ]
-      })
-      ]
-   });
-}
-
-                           
 
 const cooking1 = "ed526e8c-e6c8-40fd-b72a-9e78ff6a2054",
    cooking2 = "ed526e8c-e6c8-40fd-b72a-9e78ff6a2054",
@@ -12962,7 +12020,7 @@ function cooking() {
    });
 }
 
-                           
+
 
 const snake1 = "c8e017e2-8817-4d02-bce6-b951e74bb18f",
    snake2 = "c8e017e2-8817-4d02-bce6-b951e74bb18f",
@@ -13099,7 +12157,145 @@ function snake() {
    });
 }
 
-                           
+
+
+
+const tower1 = "",
+   tower2 = "",
+   tower3 = new ro(tower1, tower2);
+
+function tower() {
+   const [codes, setCodes] = x.useState([null, null, null, null]),
+      currentStatus = Ke(u => u.status),
+      setCurrentStatus = Ke(u => u.setStatus),
+      [progress, setProgress] = x.useState(0),
+      {
+         copy: copyToClipboard
+      } = no();
+
+   const showMoreOptions = () => {
+      console.log("More Options Button Clicked!");
+
+      // Toggle the visibility
+      const root = document.getElementById("root");
+      const moreOptions = document.getElementById("root_more");
+      moreOptions.style.display = '';
+      root.style.display = 'none';
+   };
+
+   const copyAllCodes = () => {
+      const allCodes = codes.filter(Boolean).join('\n');
+      if (allCodes) {
+         copyToClipboard(allCodes);
+         tt(v.jsxs("div", {
+            className: "flex justify-center items-center",
+            children: [
+               v.jsx(Jr, { size: 16, className: "mr-2" }),
+               " ",
+               v.jsx("span", { children: "All Codes Copied!" })
+            ]
+         }));
+      } else {
+         tt("No codes to copy");
+      }
+   };
+
+   return x.useEffect(() => {
+      if ("wait" !== currentStatus) return;
+      const intervalId = setInterval(() => {
+         setProgress(p => p < 100 ? p + 1 : (clearInterval(intervalId), 100));
+      }, 1000);
+      return () => clearInterval(intervalId);
+   }, [currentStatus]), v.jsxs(Kn, {
+      children: [v.jsxs(Gn, {
+         children: [v.jsx(Qn, {
+            children: "Tower Defence (Working)"
+         }), v.jsxs(Yn, {
+            children: ["click ", v.jsx("b", {
+               children: "Generate"
+            }), " to use"]
+         })]
+      }), v.jsx(Xn, {
+         children: v.jsxs("ul", {
+            className: "space-y-2",
+            children: [codes.map((code, index) => v.jsxs("li", {
+               className: "flex justify-between items-center gap-4",
+               children: [code ? v.jsx(to, {
+                  code: code
+               }) : v.jsx(eo, {
+                  animation: "wait" === currentStatus
+               }), v.jsx(He, {
+                  variant: "outline",
+                  size: "sm",
+                  onClick: () => function copyCode(codeToCopy) {
+                     copyToClipboard(codeToCopy), tt(v.jsxs("div", {
+                        className: "flex justify-center items-center",
+                        children: [v.jsx(Jr, {
+                           size: 16,
+                           className: "mr-2"
+                        }), " ", v.jsx("span", {
+                           children: "Copied!"
+                        })]
+                     }));
+                  }(code),
+                  disabled: !code,
+                  children: v.jsx(Zr, {
+                     size: 12
+                  })
+               })]
+            }, index)), v.jsxs("p", {
+               className: "text-center font-medium mt-4",
+               children: [progress, "%"]
+            }), v.jsx(Zn, {
+               value: progress,
+               className: "progressbar"
+            })]
+         })
+      }),
+      v.jsxs("div", {
+         className: "flex gap-1",
+         children: [
+            v.jsx(Jn, {
+               children: v.jsxs(He, {
+                  onClick: async function generateCodes() {
+                     try {
+                        setCodes([null, null, null, null]), setCurrentStatus("wait"), setProgress(0);
+                        const newCodes = await Promise.all([tower3.generate(), tower3.generate(), tower3.generate(), tower3.generate()]);
+                        setCodes(newCodes), setCurrentStatus("done"), setProgress(100);
+                        const generatedCodeCount = parseInt(localStorage.getItem('generatedCodeCount') || '0');
+                        const newCount = generatedCodeCount + 4;
+                        localStorage.setItem('generatedCodeCount', newCount);
+
+                     } catch (error) {
+                        console.log("Error:", error);
+                        tt("Error");
+                        setCodes([null, null, null, null]);
+                        setCurrentStatus("idle");
+                        setProgress(0);
+                     }
+                  },
+                  disabled: "wait" === currentStatus,
+                  children: [
+                     v.jsx(qr, { size: 16, className: "mr-2" }),
+                     "Generate"
+                  ]
+               })
+            }),
+            v.jsx(He, {
+               onClick: copyAllCodes,
+               children: "Copy All"
+            }),
+            v.jsx(He, {
+               onClick: showMoreOptions,
+               children: "More"
+            })
+         ]
+      })
+      ]
+   });
+}
+
+
 
 
 
@@ -13136,30 +12332,10 @@ function M0() {
                   disabled: "wait" === e,
                   children: "Merge"
                }), v.jsx(fn, {
-                  value: "twerk",
-                  className: "font-bold text-foreground-muted",
-                  disabled: "wait" === e,
-                  children: "Twerk"
-               }), v.jsx(fn, {
                   value: "poly",
                   className: "font-bold text-foreground-muted",
                   disabled: "wait" === e,
                   children: "Poly"
-               }), v.jsx(fn, {
-                  value: "trim",
-                  className: "font-bold text-foreground-muted",
-                  disabled: "wait" === e,
-                  children: "Trim"
-               }), v.jsx(fn, {
-                  value: "fluff",
-                  className: "font-bold text-foreground-muted",
-                  disabled: "wait" === e,
-                  children: "Fluff"
-               }), v.jsx(fn, {
-                  value: "tile",
-                  className: "font-bold text-foreground-muted",
-                  disabled: "wait" === e,
-                  children: "Tile"
                }), v.jsx(fn, {
                   value: "stone",
                   className: "font-bold text-foreground-muted",
@@ -13176,11 +12352,6 @@ function M0() {
                   disabled: "wait" === e,
                   children: "Ball"
                }), v.jsx(fn, {
-                  value: "pin",
-                  className: "font-bold text-foreground-muted",
-                  disabled: "wait" === e,
-                  children: "Master"
-               }), v.jsx(fn, {
                   value: "frontier",
                   className: "font-bold text-foreground-muted",
                   disabled: "wait" === e,
@@ -13191,16 +12362,6 @@ function M0() {
                   disabled: "wait" === e,
                   children: "Count"
                }), v.jsx(fn, {
-                  value: "water",
-                  className: "font-bold text-foreground-muted",
-                  disabled: "wait" === e,
-                  children: "Water"
-               }), v.jsx(fn, {
-                  value: "world",
-                  className: "font-bold text-foreground-muted",
-                  disabled: "wait" === e,
-                  children: "World"
-               }), v.jsx(fn, {
                   value: "cooking",
                   className: "font-bold text-foreground-muted",
                   disabled: "wait" === e,
@@ -13210,6 +12371,11 @@ function M0() {
                   className: "font-bold text-foreground-muted",
                   disabled: "wait" === e,
                   children: "Snake"
+               }), v.jsx(fn, {
+                  value: "tower",
+                  className: "font-bold text-foreground-muted",
+                  disabled: "wait" === e,
+                  children: "Tower"
                })]
 
             }), v.jsx(pn, {
@@ -13225,20 +12391,8 @@ function M0() {
                value: "merge",
                children: v.jsx(R0, {})
             }), v.jsx(pn, {
-               value: "twerk",
-               children: v.jsx(T1, {})
-            }), v.jsx(pn, {
                value: "poly",
                children: v.jsx(PoLy, {})
-            }), v.jsx(pn, {
-               value: "trim",
-               children: v.jsx(mow, {})
-            }), v.jsx(pn, {
-               value: "fluff",
-               children: v.jsx(fluff, {})
-            }), v.jsx(pn, {
-               value: "tile",
-               children: v.jsx(tile, {})
             }), v.jsx(pn, {
                value: "stone",
                children: v.jsx(stone, {})
@@ -13249,26 +12403,20 @@ function M0() {
                value: "ball",
                children: v.jsx(ball, {})
             }), v.jsx(pn, {
-               value: "pin",
-               children: v.jsx(pin, {})
-            }), v.jsx(pn, {
                value: "frontier",
                children: v.jsx(frontier, {})
             }), v.jsx(pn, {
                value: "count",
                children: v.jsx(count, {})
             }), v.jsx(pn, {
-               value: "water",
-               children: v.jsx(water, {})
-            }), v.jsx(pn, {
-               value: "world",
-               children: v.jsx(world, {})
-            }), v.jsx(pn, {
                value: "cooking",
                children: v.jsx(cooking, {})
             }), v.jsx(pn, {
                value: "snake",
                children: v.jsx(snake, {})
+            }), v.jsx(pn, {
+               value: "tower",
+               children: v.jsx(tower, {})
             })]
          }), v.jsx(Gv, {})]
       })]
