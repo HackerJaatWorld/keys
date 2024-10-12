@@ -9129,7 +9129,7 @@ function sy() {
                className: 'tg-logo play'
             })
          }), v.jsxs("p", {
-            children: ["version: ", "2.2"]
+            children: ["version: ", "2.5"]
          })]
       }), v.jsxs("div", {
          className: "flex items-center gap-2",
@@ -12160,8 +12160,8 @@ function snake() {
 
 
 
-const tower1 = "",
-   tower2 = "",
+const tower1 = "53bf823a-948c-48c4-8bd5-9c21903416df",
+   tower2 = "53bf823a-948c-48c4-8bd5-9c21903416df",
    tower3 = new ro(tower1, tower2);
 
 function tower() {
@@ -12209,7 +12209,7 @@ function tower() {
    }, [currentStatus]), v.jsxs(Kn, {
       children: [v.jsxs(Gn, {
          children: [v.jsx(Qn, {
-            children: "Tower Defence (Working)"
+            children: "Tower Defence"
          }), v.jsxs(Yn, {
             children: ["click ", v.jsx("b", {
                children: "Generate"
