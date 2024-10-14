@@ -251,7 +251,7 @@ function checkAllAdsViewed() {
 
   // Example ads array
   const ads = [
-   { ad_id: 'v25', ad_time: 12000, ad_name: 'Blum & Dogs New updates | Blum BP Points | Tomarket 🍅 Mystery gifts new update | Major new game', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/kH-DCticGCg?si=2WkhCfs9q5_7AMTm' },
+   { ad_id: 'v27', ad_time: 60000, ad_name: '14 October major daily combo', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/ZmtN7yIP8ag?si=MtkzmUCApDzq6roS' },
        { ad_id: 'v26', ad_time: 60000, ad_name: 'X Empire , Major , Blum Airdrop Fraud By Unverified tokek | Unverified NFT Fraud | Airdrop not 🚫', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/iRnfxFd7--g?si=M7d_ht8wUiSFU-oX' },
       { ad_id: 'CryptoLS', ad_time: 7000, ad_name: 'Subscribe My Channel', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/@cryptols' },
       { ad_id: 'TG-CryptoLS', ad_time: 5000, ad_name: 'Jion My Channel ', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s', ad_url: 'https://t.me/CryptoLSC' },
