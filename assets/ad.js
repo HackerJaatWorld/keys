@@ -251,7 +251,7 @@ function checkAllAdsViewed() {
 
   // Example ads array
   const ads = [
-   { ad_id: 'v28', ad_time: 60000, ad_name: ' X Empire PreMarket ✅ $X token Distribution Start 🤯  X empire Listing on Bybit ｜X empire value of $X', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/noGtiJalE_k?si=CjSK_t55YgCXr53m' },
+   { ad_id: 'v30', ad_time: 60000, ad_name: 'X-empire $X Token claim withdrawal 💵 🔥｜ X Empire Airdrop claim ｜ X empire token withdrawal airdrop', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/8lervAzhO90?si=O1nZiEih5HBlACzQ' },
        { ad_id: 'v29', ad_time: 60000, ad_name: 'Moonbix New Announcement dogs $DOGS Token Reward ｜ Hamster Kombat New game web3 feature ｜ X empire', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/c6f0bO9bR6g' },
       { ad_id: 'CryptoLS', ad_time: 7000, ad_name: 'Subscribe My Channel', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/@cryptols' },
       { ad_id: 'TG-CryptoLS', ad_time: 5000, ad_name: 'Jion My Channel ', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s', ad_url: 'https://t.me/CryptoLSC' },
