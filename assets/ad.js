@@ -281,7 +281,7 @@ function checkAllAdsViewed() {
 //     { ad_id: 'rats', ad_time: 2000, ad_name: 'Rats Kingdom', img_url: 'https://tg.ratskingdom.com/assets/logo.png', ad_url: 'http://t.me/RatsKingdom_Bot/join?startapp=66ef75ce66079d59e6d14a5f' },
 //        { ad_id: 'bybit-bot', ad_time: 2000, ad_name: 'bybit Coinsweeper (official bybit bot )', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK8SNonGm06lgyaOovkgq73_urmWhNaadXBoW1R_r12PTVlx5SlJ4YfGU&s=10', ad_url: 'https://t.me/BybitCoinsweeper_Bot?start=referredBy=1576630572' },
 //     { ad_id: 'bit', ad_time: 2000, ad_name: 'Bit ton (29 September)', img_url: 'https://bits.apps-tonbox.me/images/airdrop-logo.png', ad_url: 'https://t.me/BitsTonboxBot/BitsAirdrops?startapp=V7LQpbC32DyFZmS6wjdqML' },
-   //    { ad_id: '40', ad_time: 2000, ad_name: 'Gamee (23 Sep)', img_url: 'https://prizes.gamee.com/_next/static/media/wat-miner.e4e4f3d9.png', ad_url: 'https://t.me/gamee/start?startapp=ref_1576630572' },
+      { ad_id: 'puppies', ad_time: 2000, ad_name: 'NotBoredPuppies_bot', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjAfBm8Hsi1gkURE_TqUEndq80ubAOxHY6Ig&s', ad_url: 'https://t.me/NotBoredPuppies_bot?start=r_1576630572' },
       { ad_id: 'memeland', ad_time: 2000, ad_name: 'Memeland', img_url: 'https://cdn4.cdn-telegram.org/file/BwaZf0702OMBpqQTsPfIN8YitHkBEiBbQuHsEGI4y9tAl3EzMbSUu2FGvxVu7tW0GpDg2RKUtKFSa_o9DNi-gLuWb0gMsZfNazFRcEl05m1jgv0etMDBtVO4vEoWIS-GTe3_VLIaepwoxlKFd6DvN18FkWLA8NlYluswnUAaA2Pn4SU12REejqzFo_4HcLWFwxk-oXdSYr0vK5ourszEy8JxNQDulvjTNBOzCf1AcGKY4yogEIUiqSP64X_SHWYz5g3JQzLStPpoQX8oh6WZaHzfeluPqtGKpvR7l5l2OZ3yYUMAeqghVqbpzLpwwqs06Dtm3OFaSEVhPdeWXiQGoA.jpg', ad_url: 'https://t.me/metaland_bot/click?startapp=1576630572' },
  ];
  
