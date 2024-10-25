@@ -251,7 +251,7 @@ function checkAllAdsViewed() {
 
   // Example ads array
   const ads = [
-  { ad_id: '34', ad_time: 60000, ad_name: 'X Empire $X Token ｜ X empire Token Withdrawal 💵 ｜ X Empire Token withdrawal bitget & Bybit TGE date', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/GOArVvmdcdQ?si=XyUQYYMS5j1s4n1l' },
+  { ad_id: '35', ad_time: 60000, ad_name: ' X Empire Withdrawal $X Token ｜ Memefi Airdrop ｜ Major Airdrop ｜ Tomarket 🍅 new airdrop withdrawal', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/SnbYnjxd-yg?si=GQHath_x6GfFIX9Q' },
     //   { ad_id: 'v31', ad_time: 60000, ad_name: ' X-empire $X Token Deposit｜ Xempire withdrawal 💵🔥｜ X empire token Bybit ,okx,bitget deposit on chain', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/SA4_rSG8odk?si=caG2DYu1_6MwkCuG' },
       { ad_id: 'CryptoLS', ad_time: 7000, ad_name: 'Subscribe My Channel', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/@cryptols' },
       { ad_id: 'TG-CryptoLS', ad_time: 5000, ad_name: 'Jion My Channel ', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s', ad_url: 'https://t.me/CryptoLSC' },
