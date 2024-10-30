@@ -251,7 +251,8 @@ function checkAllAdsViewed() {
 
   // Example ads array
   const ads = [
-  //{ ad_id: '38', ad_time: 60000, ad_name: 'Memeland Airdrop new criteria • Tomarket 🍅 Tomato red flag 🚩 ｜ Memeland airdrop x empire claim', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/59-g_N6YXK0' },
+  { ad_id: '39', ad_time: 60000, ad_name: 'Tomarket 🍅 TGE , Total Supply ｜ Tomarket 🍅 $TOMA Token distribution ｜ Tomarket 🍅 Airdrop value
+      ', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/ZLT0ajPZhog' },
    //  { ad_id: 'v37', ad_time: 60000, ad_name: 'Tomarket $TOMA Token Airdrop Claim ｜ Tomato 🍅 Airdrop Criteria ｜ Tomarket price prediction snapshot', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/tsx-1kVOBXk' },
       { ad_id: 'CryptoLS', ad_time: 7000, ad_name: 'Subscribe My Channel', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/@cryptols' },
       { ad_id: 'TG-CryptoLS', ad_time: 5000, ad_name: 'Jion My Channel ', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s', ad_url: 'https://t.me/CryptoLSC' },
