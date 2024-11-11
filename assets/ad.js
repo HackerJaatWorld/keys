@@ -251,7 +251,7 @@ function checkAllAdsViewed() {
 
   // Example ads array
   const ads = [
-  { ad_id: '42', ad_time: 120000, ad_name: 'X empire $X Token Pump ⛽ ｜ Tomarket 🍅 $TOMA Token TGE Date ｜ X Empire , Hamster Kombat value (2m)', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/JsP7UkrwIJo?si=leeHKJH_1xiJp1uO' },
+  { ad_id: '43', ad_time: 120000, ad_name: 'Panda & Memeland Scam 😱 ｜ Memeland & Panda legit or scam ｜ $RBTC Rockyrabbit pump future token (2 minutes)', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/s095JsDpEVA?si=X9dsBpvcaOuLAJTp' },
    //  { ad_id: 'v37', ad_time: 60000, ad_name: 'Tomarket $TOMA Token Airdrop Claim ｜ Tomato 🍅 Airdrop Criteria ｜ Tomarket price prediction snapshot', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/tsx-1kVOBXk' },
       { ad_id: 'CryptoLS', ad_time: 7000, ad_name: 'Subscribe My Channel', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/@cryptols' },
       { ad_id: 'TG-CryptoLS', ad_time: 5000, ad_name: 'Jion My Channel ', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s', ad_url: 'https://t.me/CryptoLSC' },
