@@ -251,7 +251,7 @@ function checkAllAdsViewed() {
 
   // Example ads array
   const ads = [
- { ad_id: '50', ad_time: 120000, ad_name: 'Memefi Airdrop okx Wallet connect & okx exchange connect｜ Ton Station Airdrop Soon｜ Memefi withdraw(2 minutes)', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/POmGQTDuNPA?si=HDviN3UxIp9daLIS' },
+ { ad_id: '51', ad_time: 120000, ad_name: 'Major TGE & Listing Value ｜ Bool Network Airdrop ｜ Blum my token ｜ PAWS New Updates｜ Major Airdrop (2 minutes)', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/a4epvvSxPTY' },
 //  { ad_id: 'v47', ad_time: 60000, ad_name: 'Ton station Airdrop 💵 🔥 ｜ Memefi ⧸ usdt listing value = $0.01｜ Ton Station ｜ Major New updates｜ Ton', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/42sVbsWzaU8' },
       { ad_id: 'CryptoLS', ad_time: 7000, ad_name: 'Subscribe My Channel', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/@cryptols' },
       { ad_id: 'TG-CryptoLS', ad_time: 5000, ad_name: 'Jion My Channel ', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s', ad_url: 'https://t.me/CryptoLSC' },
