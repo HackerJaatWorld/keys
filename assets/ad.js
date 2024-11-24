@@ -283,7 +283,7 @@ function checkAllAdsViewed() {
 //     { ad_id: 'bit', ad_time: 2000, ad_name: 'Bit ton (29 September)', img_url: 'https://bits.apps-tonbox.me/images/airdrop-logo.png', ad_url: 'https://t.me/BitsTonboxBot/BitsAirdrops?startapp=V7LQpbC32DyFZmS6wjdqML' },
    //   { ad_id: 'puppies', ad_time: 2000, ad_name: 'NotBoredPuppies_bot', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjAfBm8Hsi1gkURE_TqUEndq80ubAOxHY6Ig&s', ad_url: 'https://t.me/NotBoredPuppies_bot?start=r_1576630572' },
       { ad_id: 'bums', ad_time: 2000, ad_name: 'Bums (big airdrop)', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfzWfyLe7n2xj-uJGr1Sk_J-9Zdo2LqjNc5KsVk4p90ekAxzBJxHTLa9g&s=10', ad_url: 'https://t.me/bums/app?startapp=ref_ZUqucTwt' },
-     { ad_id: 'tone_station', ad_time: 2000, ad_name: 'Memeland', img_url: 'https://pbs.twimg.com/ext_tw_video_thumb/1834173799782137856/pu/img/5bPDDCH0NP29i_mg.jpg', ad_url: 'https://t.me/tonstationgames_bot/app?startapp=ref_2p7tyqhe8kvvmzrs9stxad' },
+     { ad_id: 'FERRET new airdrop bot ', ad_time: 2000, ad_name: 'Memeland', img_url: 'https://ferret-three.vercel.app/page/icon/logo.png', ad_url: 'https://t.me/ferret_official_bot/FERRET?startapp=1576630572' },
  ];
  
   // Display the ads
