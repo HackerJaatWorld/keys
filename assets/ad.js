@@ -251,7 +251,7 @@ function checkAllAdsViewed() {
 
   // Example ads array
   const ads = [
- { ad_id: '55', ad_time: 60000, ad_name: 'Paws New Task React Harder ｜ How To Complete Paws React Harder Task ｜Paws Task +10000 Paws (1 minutes)', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/vmOxvL9ljfM?si=l3s7ztTr9UXb9fPG' },
+ { ad_id: '56', ad_time: 180000, ad_name: 'Memeland & Pandas Airdrop 💵 🔥 ｜ Memeland $MEMES Token Hotcoin listing trading start ｜ Pandas ton gas  (3 minutes)', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/-p_5fIKj7lI?si=dG9PW9uEDQ20s69X' },
 //  { ad_id: 'v47', ad_time: 60000, ad_name: 'Ton station Airdrop 💵 🔥 ｜ Memefi ⧸ usdt listing value = $0.01｜ Ton Station ｜ Major New updates｜ Ton', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtu.be/42sVbsWzaU8' },
       { ad_id: 'CryptoLS', ad_time: 7000, ad_name: 'Subscribe My Channel', img_url: 'https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png', ad_url: 'https://youtube.com/@cryptols' },
       { ad_id: 'TG-CryptoLS', ad_time: 5000, ad_name: 'Jion My Channel ', img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_dbOUeCrOBe-mkfGD-fEjQNECJrkromWTYg&s', ad_url: 'https://t.me/CryptoLSC' },
